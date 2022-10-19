@@ -5,7 +5,6 @@ mod tests;
 
 use std::cmp::Ordering;
 
-// macro for making matrices easier not really important 
 #[macro_export]
 macro_rules! mat {
     ($( $( $e:expr ),+);+ $(;)?) => {{
